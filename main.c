@@ -12,8 +12,10 @@ int main(int argc, char *argv[]) {
 	
 	if(i > 0)
 		printf("%d is positive number", i);
-	else
+	else if (i < 0)
 		printf("%d is negative number", i);
+	else
+		printf("%d is 0", i);
 	
 	return 0;
 }
