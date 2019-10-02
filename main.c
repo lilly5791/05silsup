@@ -17,6 +17,21 @@ int main(int argc, char *argv[]) {
 		
 	return 0;
 }
+
+int main(int argc, char *argv[]) {
+	
+	int i;
+	
+	printf("input a number : "); // 05week 2
+	scanf("%d", &i);
+	
+	if (i < 0)
+		i = -i;
+	
+	printf("Absolute number is %d", i);
+	
+	return 0;
+}
 	
 
 int main(int argc, char *argv[]) {
