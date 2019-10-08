@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
 	
 	int i = 0, m;
 	
-	while(i < 3)
+	while (i < 3)
 	{
 		m = i * 1609;
 		printf(" %d mile is %d meter.\n", i, m);
